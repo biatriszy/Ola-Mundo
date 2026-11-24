@@ -1,20 +1,22 @@
-// ConsoleOlaMundo.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
-//
-
 #include <iostream>
+#include <string>
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+int main() {
 
-// Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
-// Depurar programa: F5 ou menu Depurar > Iniciar Depuração
+  std::string nome;
 
-// Dicas para Começar: 
-//   1. Use a janela do Gerenciador de Soluções para adicionar/gerenciar arquivos
-//   2. Use a janela do Team Explorer para conectar-se ao controle do código-fonte
-//   3. Use a janela de Saída para ver mensagens de saída do build e outras mensagens
-//   4. Use a janela Lista de Erros para exibir erros
-//   5. Ir Para o Projeto > Adicionar Novo Item para criar novos arquivos de código, ou Projeto > Adicionar Item Existente para adicionar arquivos de código existentes ao projeto
-//   6. No futuro, para abrir este projeto novamente, vá para Arquivo > Abrir > Projeto e selecione o arquivo. sln
+    std::cout << "como voce se chama? \n";
+    std::cin >> nome;
+    std::cout << "Ola, " << nome << "! \n";
+ 
+  int idade = 0;
+
+    std::cout << nome << ", qual sua idade? \n";
+    std::cin >> idade;
+    std::cout << "Prazer lhe conhecer, " << nome << "! \n";
+
+    // dica de boa prática!
+    // usar "std::" ao invés de "using namespace std" no cabeçalho ajuda a evitar conflitos com nomes de funções ou variáveis que serão criadas futuramente.
+
+    return 0;
+} 
