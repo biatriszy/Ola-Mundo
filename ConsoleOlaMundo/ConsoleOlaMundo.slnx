@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ConsoleOlaMundo.vcxproj" />
+  <Project Path="ConsoleOlaMundo.vcxproj" Id="fd2e180a-d41d-4767-980f-691b2d1937d0" />
 </Solution>
